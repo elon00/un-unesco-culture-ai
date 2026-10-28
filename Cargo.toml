@@ -1,0 +1,13 @@
+[package]
+name = "un_unesco_culture_ai"
+version = "0.1.0"
+edition = "2021"
+description = "UNESCO HeritageAI: World Heritage Site Digital Twins, Open-Science Research Provenance and Universal Degree Equivalency"
+license = "Apache-2.0"
+
+[dependencies]
+candid = "0.10"
+serde = { version = "1.0", features = ["derive"] }
+
+[lib]
+crate-type = ["cdylib", "lib"]
